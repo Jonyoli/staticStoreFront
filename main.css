@@ -1,0 +1,162 @@
+body {
+    font-size: 70%;
+    font-family:Arial, Helvetica, sans-serif;
+    background: black url(assets/body4.jpeg) no-repeat fixed top center;
+    padding: 0;
+    margin: 0;
+    background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+}
+
+header h1 {
+    color: white;
+    font-size: 5.0em;
+    letter-spacing: -0.025em;
+    margin: 0;
+}
+
+header h2 {
+    color: white;
+    font-size: 4.0em;
+    margin: -0.2em 0 0 1.0em;
+    letter-spacing: -0.025em;
+    margin: -0.2em 0 0 1.0em;
+}
+
+section h1 {
+    color: black;
+    font-size: 4.0em;
+    text-align: left;
+    margin: -0.2em 0 0 1.0em;
+    letter-spacing: -0.025em;
+}
+
+h1 {
+    color: black;
+    font-size: 3.0em;
+}
+
+h2 {
+    color: black;
+    font-size: 1.5em;
+    margin: 0.5em 0px 0.35em 0px;
+    padding: 0px;
+}
+
+nav {
+    color:white;
+    font-size: 1.3em;
+    letter-spacing: 0.04em;
+    padding: 1.0em 1.0em 0.5em;
+    margin: 1.0em 0;
+}
+
+nav#search {
+    float: right;
+    margin: -1.5em 0 0 0;
+    padding: 0.35em;
+    height: 1.3em
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+nav ul li.acctNav a.active {
+    color: white;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0;
+    vertical-align: right;
+}
+
+section {
+    margin: 10em 19em;
+    padding: 7em 0 7em 7em;
+    display: inline-block;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #777;
+}
+
+section div.gym {
+    float: left;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0 0.5em 2.0em 0.5em;
+    padding: 1.0em;
+    background-color: #fff;
+    border: #ccc solid 1px;
+    border-radius: 0.6em;
+}
+
+
+section div.gym assets.gymEquipment {
+    width: 100%;
+
+}
+
+.label {
+    position:absolute;
+    bottom: 0;
+}
+
+.label:hover {
+    cursor:pointer;
+    color: lightslategrey;
+}
+
+section#second {
+    margin: -10em 7em 5em 7em;
+    padding: 0.5em 0 1.0em 1.0em;
+    border-radius: 2em;
+    box-shadow: 1px 1px 5px #777;
+}
+
+section#second h1 {
+    text-align: left;
+}
+
+footer {
+    height: 15px;
+    font-size: 1.0em;
+    color: black;
+    text-align: left;
+    padding: 1.2em 1.5em;
+}
+
+footer ul a {
+    color: black;
+}
+
+footer ul li a {
+    color:black;
+}
+
+footer ul li {
+    display: inline-block;
+    padding: 0 0.4em 0 0;
+    margin: 0;
+    color: black;
+}
+
+footer ul li:hover{
+    cursor:pointer;
+}
+
+footer ul li::before {
+    content: "|";
+    padding-right: 0.4em;
+}
+
+header {
+    padding:3.0em 0 1em;
+    margin: auto;
+    background: black url(assets/header.jpeg) 0px;
+}
